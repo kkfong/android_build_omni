@@ -594,7 +594,7 @@ function lunch()
     else
         T=$(gettop)
         pushd $T > /dev/null
-        build/tools/roomservice.py $product true
+#        build/tools/roomservice.py $product true
         popd > /dev/null
     fi
     if [ $? -ne 0 ]
